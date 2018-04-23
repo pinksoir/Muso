@@ -1,0 +1,51 @@
+{
+  "albums" : [ {
+    "artist" : "Sly & The Family Stone",
+    "artwork" : "https://img.cdandlp.com/2013/08/imgL/116138891.jpg",
+    "code" : "abc123",
+    "comments" : [ {
+      "text" : "Great album. There's so many cool songs on this.",
+      "user" : "cornmunch"
+    }, {
+      "text" : "This is funk.",
+      "user" : "abbie"
+    }, {
+      "text" : "Where's Sly now?",
+      "user" : "tom45"
+    } ],
+    "description" : "Art party typewriter keytar cardigan skateboard. Tilde YOLO cliche, pour-over meh trust fund lumbersexual live-edge bushwick taiyaki portland glossier hell of keffiyeh. Blog church-key meditation truffaut scenester poutine bitters kogi schlitz brunch knausgaard helvetica taxidermy tousled. Blue bottle cornhole freegan austin, williamsburg humblebrag twee jean shorts.",
+    "label" : "Epic",
+    "tags" : [ "funk", "soul", "r&b" ],
+    "title" : "Stand",
+    "year" : "1969"
+  }, {
+    "artist" : "The Beatles",
+    "artwork" : "https://www.thebeatles.com/sites/default/files/tile/image/original_450.jpg",
+    "code" : "def456",
+    "comments" : [ {
+      "text" : "This is my favourite album",
+      "user" : "Karl"
+    }, {
+      "text" : "This is a test",
+      "user" : "Karl"
+    } ],
+    "description" : "Marfa franzen brooklyn hexagon, air plant you probably haven't heard of them health goth hella cred cronut microdosing bespoke readymade. Keytar gentrify migas, seitan keffiyeh poutine cornhole letterpress fingerstache ennui. Keytar austin put a bird on it shoreditch meh. Bitters air plant church-key bespoke enamel pin, taiyaki hashtag health goth schlitz tilde. Jianbing echo park adaptogen ramps messenger bag, pabst seitan man bun try-hard succulents +1 direct trade.",
+    "label" : "Capitol Records",
+    "tags" : [ "rock", "pop" ],
+    "title" : "Rubber Soul",
+    "year" : "1965"
+  }, {
+    "artist" : "Animal Collective",
+    "artwork" : "https://i.ebayimg.com/images/g/S-IAAOSwZlZaC5mh/s-l500.jpg",
+    "code" : "ghi789",
+    "comments" : [ null, {
+      "text" : "Yuss",
+      "user" : "Karl"
+    } ],
+    "description" : "Edison bulb street art wayfarers, letterpress you probably haven't heard of them vaporware quinoa aesthetic fingerstache tbh. Locavore small batch vegan +1 hell of heirloom leggings sriracha readymade art party farm-to-table. Green juice sustainable knausgaard tumeric, wayfarers DIY celiac trust fund vice. Listicle air plant biodiesel organic cold-pressed. ",
+    "label" : "Domino",
+    "tags" : [ "electronic", "pop", "indie" ],
+    "title" : "Merriweather Post Pavillion",
+    "year" : "2009"
+  } ]
+}
