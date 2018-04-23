@@ -17,8 +17,9 @@ A simple music list and discussion app built with React-Redux and Firebase.
 
 ## Useage
 
-Add the starter JSON file (albums.json) to the root of your Firebase database.
-Replace config object in base.js with your own api key, authDomain databaseURL:
+- Run npm install.
+- Add the starter JSON file (albums.json) to the root of your Firebase database.
+- Replace config object in base.js with your own api key, authDomain, and databaseURL:
 
 ~~~
 var config = {
@@ -27,4 +28,20 @@ var config = {
     databaseURL: "https://your-database-name.firebaseio.com",
 };
 ~~~
+- Profit!
+
+## Database
+
+You can add your own album objects to your database manually (I will add client side ability in future). They must have: 
+
+- artist: artist name
+- artwork: link to cover artwork
+- code: (a unique identifier - this will be done automatically on upload in future)
+- description: a short description of the album (or lipsum)
+- label: record label
+- tags: an array of tags
+- title: the album title
+- year: the year of release
+
+comments are not necessary as they are automatically added.
 
