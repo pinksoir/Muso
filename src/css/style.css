@@ -163,13 +163,8 @@ body {
     width: calc(30% - .5rem);
     margin-left: .5rem; }
   .user-albums__item__title {
-    width: calc(30% - .5rem);
+    width: calc(40% - .5rem);
     margin-left: .5rem; }
-  .user-albums__item__tags {
-    width: calc(20% - .5rem);
-    margin-left: .5rem;
-    display: flex;
-    flex-direction: column; }
   .user-albums__item__remove {
     width: 10%;
     display: flex;
