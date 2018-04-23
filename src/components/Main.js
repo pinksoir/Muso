@@ -19,7 +19,7 @@ export default class Main extends React.Component {
     render() {    
 
         return (
-            <div className="main-wrapper">
+            <div className="site-wrapper">
                 <Header />
 
                 <div className="page-body">
@@ -28,7 +28,7 @@ export default class Main extends React.Component {
                             exact path='/' 
                             render={(routeProps, props) => (
                                 
-                                <div className="album-section">
+                                <div className="main">
                                     <Filter 
                                         filterAlbums={this.props.filterActions.filterAlbums}
                                         filterValue={this.props.filterValue}

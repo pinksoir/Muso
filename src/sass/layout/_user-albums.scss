@@ -1,0 +1,63 @@
+.user-albums {
+
+    &__container {
+        position: fixed;
+        top: calc(5rem - 1px);
+        right: 0;
+        background: $white;
+        border-top: 1px solid $mediumlightgrey;
+        border-left: 1px solid $mediumlightgrey;
+        
+        width: calc(20rem + 1px);
+        padding: 1rem;
+        min-height: calc(100vh - 5rem);
+
+        z-index: 20;
+
+        & h4 {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__item {
+        display: flex;
+        padding-bottom: .5rem;
+        font-size: .8rem;
+
+
+        &__image {
+            width: 20%;
+
+            & img {
+                max-width: 100%;
+                display: block;
+            }
+        }
+
+        &__artist {
+            width: calc(30% - .5rem);
+            margin: 0 .5rem;
+        }
+
+        &__title {
+            width: calc(40% - .5rem);
+            margin: 0 .5rem;
+        }
+
+        &__remove {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $lightestgrey;
+            
+            &:hover {
+                cursor: pointer;
+                background: $danger;
+                color: $white;
+            }
+        }
+    }
+}

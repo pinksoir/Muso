@@ -7,7 +7,7 @@ export default class Header extends React.Component {
             <div className="header">
                 <div className="header__content">
                     <Link to="/">
-                        <h1>Muso</h1>
+                        <h1>muso<span>.</span></h1>
                     </Link>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default class Filter extends React.Component {
     render() {
 
         return(
-            <div className="album-section__filter-container">
+            <div className="filter">
                 <input type="text" value={this.props.filterValue} placeholder="filter" onChange={this.onHandleChange.bind(this)} />
             </div>
         )

@@ -8,65 +8,33 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   position: relative;
   background: #fff;
   color: #252525; }
 
-.main-wrapper {
+.site-wrapper {
   position: relative; }
 
-.header {
-  position: fixed;
-  top: 0;
+.page-body {
+  position: absolute;
+  top: 5rem;
   left: 0;
   width: 100%;
-  height: 5rem;
-  padding: 0;
-  background: #fff;
-  display: grid;
-  grid-template-columns: 10rem auto;
-  align-items: center;
-  color: #252525; }
-  .header__content {
-    grid-column: 2; }
-  .header a {
-    color: inherit;
-    text-decoration: none; }
-
-.page-body {
-  width: 100%;
   height: 100%;
-  margin: 0 auto;
+  padding-left: 5rem;
   display: grid;
-  grid-template-columns: 10rem auto 35rem;
-  margin-top: 5rem; }
+  grid-template-columns: auto 20rem; }
 
-.album-section {
-  grid-column: 2; }
-  .album-section__filter-container {
-    border-top: 1px solid #252525;
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    margin: 2.5rem 0;
-    margin-top: 0; }
-    .album-section__filter-container input {
-      height: 2rem;
-      width: 20rem;
-      border-radius: 20px;
-      border: 1px solid #e6e6e6;
-      color: #252525;
-      background: #e9e9e9;
-      padding: 0 1rem; }
-      .album-section__filter-container input:focus {
-        outline: none; }
+.main {
+  grid-column: 1;
+  padding-right: 5rem;
+  margin-top: 6rem; }
 
-.master-albums__master-list {
+.albums-list {
   display: flex;
   flex-wrap: wrap; }
-  .master-albums__master-list__item {
+  .albums-list__item {
     width: 15rem;
     height: 15rem;
     margin-right: 1rem;
@@ -74,35 +42,37 @@ body {
     display: flex;
     flex-direction: column;
     position: relative; }
-    .master-albums__master-list__item__image {
+    .albums-list__item__image {
       width: 100%; }
-      .master-albums__master-list__item__image img {
+      .albums-list__item__image img {
         max-width: 100%; }
-    .master-albums__master-list__item__inner {
+    .albums-list__item__inner {
       padding: .5rem;
       position: absolute;
       top: 0;
       left: 0;
       height: calc(100% - 3rem);
       width: 100%;
-      background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.5), rgba(37, 37, 37, 0));
+      background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.4), rgba(37, 37, 37, 0));
       color: #fff; }
-      .master-albums__master-list__item__inner h3 {
+      .albums-list__item__inner h3 {
         font-size: .9rem;
         font-weight: 600;
-        color: #fff;
+        background: #07BEB8;
         margin-bottom: .25rem;
-        margin-top: .5rem; }
-      .master-albums__master-list__item__inner h4 {
+        margin-top: .5rem;
+        display: inline-block;
+        padding: .125rem .25rem; }
+      .albums-list__item__inner h4 {
         font-size: .9rem;
         font-weight: 400;
         margin-bottom: 1rem; }
-      .master-albums__master-list__item__inner p {
+      .albums-list__item__inner p {
         font-size: .9rem;
         margin-bottom: 1rem; }
-      .master-albums__master-list__item__inner span {
+      .albums-list__item__inner span {
         font-size: .75rem; }
-    .master-albums__master-list__item__buttons {
+    .albums-list__item__buttons {
       position: absolute;
       left: 0;
       bottom: 0;
@@ -110,7 +80,7 @@ body {
       width: 100%;
       display: flex;
       justify-content: space-between; }
-      .master-albums__master-list__item__buttons .button {
+      .albums-list__item__buttons .button {
         width: 2rem;
         height: 2rem;
         background: transparent;
@@ -122,93 +92,108 @@ body {
         justify-content: center;
         align-items: center;
         text-decoration: none; }
-        .master-albums__master-list__item__buttons .button:first-child {
+        .albums-list__item__buttons .button:first-child {
           margin-left: .5rem; }
-        .master-albums__master-list__item__buttons .button:last-child {
+        .albums-list__item__buttons .button:last-child {
           margin-right: .5rem; }
-        .master-albums__master-list__item__buttons .button:hover {
+        .albums-list__item__buttons .button:hover {
           cursor: pointer;
-          background: #FE5F55;
-          border-color: #FE5F55; }
-        .master-albums__master-list__item__buttons .button p {
+          background: #07BEB8;
+          border-color: #07BEB8; }
+        .albums-list__item__buttons .button p {
           margin-bottom: .5rem; }
-        .master-albums__master-list__item__buttons .button:active, .master-albums__master-list__item__buttons .button:focus {
+        .albums-list__item__buttons .button:active, .albums-list__item__buttons .button:focus {
           outline: none; }
 
-.user-albums__container {
+.filter {
   position: fixed;
   top: 5rem;
-  right: 0;
-  background: #fff;
-  border-top: 1px solid #252525;
-  margin-right: 10rem;
-  width: 20rem;
-  padding-top: 1rem;
-  min-height: calc(100vh - 7.5rem); }
-  .user-albums__container h4 {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 1rem; }
-
-.user-albums__item {
+  left: 5rem;
+  width: 100%;
+  height: 6rem;
   display: flex;
-  padding-bottom: .5rem;
-  font-size: .8rem; }
-  .user-albums__item__image {
-    width: 20%; }
-    .user-albums__item__image img {
-      max-width: 100%;
-      display: block; }
-  .user-albums__item__artist {
-    width: calc(30% - .5rem);
-    margin-left: .5rem; }
-  .user-albums__item__title {
-    width: calc(40% - .5rem);
-    margin-left: .5rem; }
-  .user-albums__item__remove {
-    width: 10%;
+  align-items: center;
+  margin-top: 0; }
+  .filter input {
+    height: 2rem;
+    width: 20rem;
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+    color: #252525;
+    background: #e9e9e9;
+    padding: 0 1rem; }
+    .filter input:focus {
+      outline: none; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  padding: 0;
+  background: #fff;
+  display: grid;
+  grid-template-columns: auto 20rem;
+  color: #252525;
+  padding-bottom: 1rem;
+  z-index: 10; }
+  .header__content {
+    grid-column: 1;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background: #e9e9e9; }
-    .user-albums__item__remove:hover {
-      cursor: pointer;
-      background: #FE5F55;
-      color: #fff; }
+    background: #fff;
+    z-index: 1;
+    padding-left: 5rem; }
+  .header a {
+    color: inherit;
+    text-decoration: none; }
+  .header h1 {
+    font-size: 2.2rem;
+    font-family: "Shrikhand", cursive;
+    font-weight: 400;
+    position: relative; }
+    .header h1 span {
+      color: #07BEB8; }
 
 .single-page {
-  grid-column: 2;
-  border-top: 1px solid #252525; }
+  grid-column: 1;
+  padding-right: 5rem;
+  padding-left: 7.5rem; }
   .single-page__details {
-    margin-top: 2rem;
+    margin-top: 5rem;
     width: 100%;
     display: flex; }
     .single-page__details__left {
       width: calc(50% - 2rem);
-      margin-right: 2rem;
+      margin-right: 5rem;
       position: relative; }
       .single-page__details__left img {
+        min-width: 100%;
         max-width: 100%; }
       .single-page__details__left__button {
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         width: 3rem;
         height: 3rem;
         font-size: 2rem;
         background: transparent;
         border: 3px solid #fff;
         border-radius: 50%;
-        margin-top: .5rem;
-        margin-left: .5rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
         color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none; }
         .single-page__details__left__button:hover {
-          background: #FE5F55;
-          border-color: #FE5F55;
+          background: #07BEB8;
+          border-color: #07BEB8;
           cursor: pointer; }
         .single-page__details__left__button:focus {
           outline: none; }
@@ -225,9 +210,10 @@ body {
         margin-bottom: 2.5rem; }
       .single-page__details__right p {
         margin-bottom: 1rem;
-        line-height: 1.8rem; }
+        line-height: 1.8rem;
+        max-width: 30rem; }
   .single-page__comments {
-    border-top: 1px solid #252525;
+    border-top: 1px solid #868686;
     padding-top: 1rem;
     margin-top: 6rem;
     width: 50%; }
@@ -235,7 +221,7 @@ body {
       margin-top: 2rem; }
     .single-page__comments__comment {
       padding: 1rem 0;
-      border-bottom: 1px solid #c2c2c2; }
+      border-top: 1px solid #e6e6e6; }
     .single-page__comments__form {
       margin-top: 1rem;
       display: flex;
@@ -250,3 +236,45 @@ body {
         border: 1px solid #e6e6e6; }
         .single-page__comments__form input:focus {
           outline: none; }
+
+.user-albums__container {
+  position: fixed;
+  top: calc(5rem - 1px);
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+  width: calc(20rem + 1px);
+  padding: 1rem;
+  min-height: calc(100vh - 5rem);
+  z-index: 20; }
+  .user-albums__container h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+
+.user-albums__item {
+  display: flex;
+  padding-bottom: .5rem;
+  font-size: .8rem; }
+  .user-albums__item__image {
+    width: 20%; }
+    .user-albums__item__image img {
+      max-width: 100%;
+      display: block; }
+  .user-albums__item__artist {
+    width: calc(30% - .5rem);
+    margin: 0 .5rem; }
+  .user-albums__item__title {
+    width: calc(40% - .5rem);
+    margin: 0 .5rem; }
+  .user-albums__item__remove {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9e9e9; }
+    .user-albums__item__remove:hover {
+      cursor: pointer;
+      background: #FE5F55;
+      color: #fff; }

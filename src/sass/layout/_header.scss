@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    padding: 0;
+    background: $white;
+    display: grid;
+    grid-template-columns: auto 20rem;
+    color: $darkgrey;
+    padding-bottom: 1rem;
+    z-index: 10;
+
+    
+
+    &__content {
+        grid-column: 1;
+        border-bottom: 1px solid $mediumlightgrey;
+        border-right: 1px solid $mediumlightgrey;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background: $white;
+        z-index: 1;
+        padding-left: 5rem;
+    }
+
+    & a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    & h1 {
+        font-size: 2.2rem;
+        font-family: $titleFont;
+        font-weight: 400;
+        position: relative;
+
+        & span {
+            color: $accent;
+        }
+    }
+
+}

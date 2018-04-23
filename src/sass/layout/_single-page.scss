@@ -1,0 +1,117 @@
+.single-page {
+    grid-column: 1;
+    // border-top: 1px solid $darkgrey;
+    padding-right: 5rem;
+    padding-left: 7.5rem;
+
+    &__details {
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        
+        &__left { 
+            width: calc(50% - 2rem);
+            margin-right: 5rem;
+            position: relative;
+            // z-index: -1;
+            
+            & img {
+                min-width: 100%;
+                max-width: 100%;
+            }
+
+            &__button {
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                width: 3rem;
+                height: 3rem;
+                font-size: 2rem;
+                background: transparent;
+                border: 3px solid $white;
+                border-radius: 50%;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                color: $white;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+
+                &:hover {
+                    background: $accent;
+                    border-color: $accent;
+                    cursor: pointer;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+        &__right {
+            width: 50%;
+
+            & h2 {
+                font-weight: 600;
+                margin-bottom: .5rem;
+            }
+
+            & h3 {
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+
+            & h4 {
+                font-weight: 600;
+                margin-bottom: 2.5rem;
+            }
+
+            & p {
+                margin-bottom: 1rem;
+                line-height: 1.8rem;
+                max-width: 30rem;
+            }
+        }
+    }
+
+    &__comments {
+        border-top: 1px solid $mediumdarkgrey;
+        padding-top: 1rem;
+        margin-top: 6rem;
+        width: 50%;
+
+        &__container {
+            margin-top: 2rem;
+        }
+
+        &__comment {
+            padding: 1rem 0;
+            border-top: 1px solid $lightgrey;
+        }
+
+        &__form {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column; 
+
+            width: 100%;
+            padding-bottom: 3rem;
+
+            & input{
+                width: 100%;
+                padding: .5rem;
+                margin-bottom: .5rem;
+                background: $lightestgrey;
+                border: 1px solid $lightgrey;
+                
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }    
+}

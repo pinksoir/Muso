@@ -1,1 +1,12 @@
+// ABSTRACTS
+@import 'abstracts/variables';
+
+// BASE
 @import 'base/base';
+
+// LAYOUT
+@import 'layout/albums-list';
+@import 'layout/filter';
+@import 'layout/header';
+@import 'layout/single-page';
+@import 'layout/user-albums';
