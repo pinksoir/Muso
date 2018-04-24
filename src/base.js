@@ -2,9 +2,9 @@ import Rebase from 're-base'
 import * as firebase from 'firebase'
 
 var config = {
-    apiKey: "AIzaSyDbZsT_DBKySuJC49nJHwDr6srbK8ObBEU",
-    authDomain: "music-list-83b0f.firebaseapp.com",
-    databaseURL: "https://music-list-83b0f.firebaseio.com",
+    apiKey: "YOUR_API_KEY",
+    authDomain: "your-db-name.firebaseapp.com",
+    databaseURL: "https://your-db-name.firebaseio.com",
 };
   
 firebase.initializeApp(config);
