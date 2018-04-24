@@ -81,6 +81,7 @@ body {
       display: flex;
       justify-content: space-between; }
       .albums-list__item__buttons .button {
+        position: relative;
         width: 2rem;
         height: 2rem;
         background: transparent;
@@ -88,10 +89,13 @@ body {
         border-radius: 50%;
         margin-top: .5rem;
         color: #fff;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2), inset 0 0 0.5rem rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: center;
         align-items: center;
-        text-decoration: none; }
+        text-decoration: none;
+        text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.75);
+        transition: all 0.15s cubic-bezier(0.694, 0.048, 0.335, 1); }
         .albums-list__item__buttons .button:first-child {
           margin-left: .5rem; }
         .albums-list__item__buttons .button:last-child {
@@ -99,9 +103,14 @@ body {
         .albums-list__item__buttons .button:hover {
           cursor: pointer;
           background: #07BEB8;
-          border-color: #07BEB8; }
+          border-color: #07BEB8;
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+          text-shadow: none; }
+          .albums-list__item__buttons .button:hover p {
+            text-shadow: none; }
         .albums-list__item__buttons .button p {
-          margin-bottom: .5rem; }
+          margin-bottom: .5rem;
+          text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.75); }
         .albums-list__item__buttons .button:active, .albums-list__item__buttons .button:focus {
           outline: none; }
 
@@ -113,7 +122,9 @@ body {
   height: 6rem;
   display: flex;
   align-items: center;
-  margin-top: 0; }
+  margin-top: 0;
+  z-index: 10;
+  background: #fff; }
   .filter input {
     height: 2rem;
     width: 20rem;
@@ -187,14 +198,19 @@ body {
         margin-top: 1rem;
         margin-right: 1rem;
         color: #fff;
+        box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2), inset 0 0 0.75rem rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: center;
         align-items: center;
-        text-decoration: none; }
+        text-decoration: none;
+        text-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.3);
+        transition: all 0.15s cubic-bezier(0.694, 0.048, 0.335, 1); }
         .single-page__details__left__button:hover {
           background: #07BEB8;
           border-color: #07BEB8;
-          cursor: pointer; }
+          cursor: pointer;
+          box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
+          text-shadow: none; }
         .single-page__details__left__button:focus {
           outline: none; }
     .single-page__details__right {
@@ -273,7 +289,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e9e9e9; }
+    background: #e9e9e9;
+    transition: all 0.15s cubic-bezier(0.694, 0.048, 0.335, 1); }
     .user-albums__item__remove:hover {
       cursor: pointer;
       background: #FE5F55;

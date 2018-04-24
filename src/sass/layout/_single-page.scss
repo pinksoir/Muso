@@ -34,16 +34,23 @@
                 margin-top: 1rem;
                 margin-right: 1rem;
                 color: $white;
+                box-shadow: 
+                    0 0 .75rem rgba($black, .2),
+                    inset 0 0 .75rem rgba($black, .2);
                 
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
+                text-shadow: 0 0 .75rem rgba($black, .3);
+                transition: all .15s $snap;
 
                 &:hover {
                     background: $accent;
                     border-color: $accent;
                     cursor: pointer;
+                    box-shadow: 0 0 .75rem rgba($black, .2);
+                    text-shadow: none;
                 }
 
                 &:focus {

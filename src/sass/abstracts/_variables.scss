@@ -1,12 +1,7 @@
 /////// FONTS //////////////
 
-// $mainFont: 'Open Sans', sans-serif;
 $mainFont: 'Lato', sans-serif;
-
-// $titleFont: 'Alfa Slab One', cursive;
-// $titleFont: 'Bevan', cursive;
 $titleFont: 'Shrikhand', cursive;
-// $titleFont: 'Poller One', cursive;
 
 /////// COLORS //////////////
 
@@ -31,4 +26,8 @@ $black: #000;
 $accent: #07BEB8;
 
 $danger: #FE5F55;
+
+/////// TRANSITIONS //////////////
+
+$snap: cubic-bezier(.694,.048,.335,1);
 

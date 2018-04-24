@@ -41,8 +41,8 @@ export default class Comments extends React.Component {
                 ) : null}
                 
                 <form className="single-page__comments__form" onSubmit={this.handleSubmit.bind(this)} ref="commentForm">
-                    <input className="item" type="Text" ref="author" placeholder="author"/>
-                    <input className="item" type="Text" ref="comment" placeholder="comment"/>
+                    <input className="item" type="Text" ref="author" placeholder="author" required/>
+                    <input className="item" type="Text" ref="comment" placeholder="comment" required/>
                     <input type="submit" hidden />
                 </form>
             </div>
