@@ -11,9 +11,16 @@
         flex-direction: column;
 
         position: relative;
+        overflow: hidden;
+        
+
+        &:hover &__image {
+            transform: scale(1.1);
+        }
 
         &__image {
             width: 100%;
+            transition: transform .75s;
 
             & img {
                 max-width: 100%;
