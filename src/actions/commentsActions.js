@@ -1,6 +1,5 @@
 
 import base from '../base'
-import firebase from 'firebase'
 
 const commentModel = (author, comment) => {
     return {
@@ -14,10 +13,8 @@ export const addComment = (index, author, comment) => {
     return new Promise((resolve, reject) => {
         base.ref(`/albums/${index}`).once('value').then((album) => {
 
-            console.log(album);
             let comments = album.val().comments || [];
-            console.log(comments);
-            let key = base.ref(`/albums/${index}`).push().key;
+            // let key = base.ref(`/albums/${index}`).push().key;
 
             comments.push(commentModel(author, comment))
             base.ref(`/albums/${index}/comments`).set(comments)

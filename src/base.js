@@ -1,4 +1,4 @@
-import Rebase from 're-base'
+// import Rebase from 're-base'
 import * as firebase from 'firebase'
 
 var config = {

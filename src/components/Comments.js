@@ -19,7 +19,6 @@ export default class Comments extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        const { albumId } = this.props.params;
         const author = this.refs.author.value;
         const comment = this.refs.comment.value;
 

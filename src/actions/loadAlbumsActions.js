@@ -1,6 +1,5 @@
-// import axios from "axios"
+
 import base from '../base'
-import firebase from 'firebase'
 
 /**
 * ACTION CREATORS

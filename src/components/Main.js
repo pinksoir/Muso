@@ -8,8 +8,6 @@ import MasterAlbumsList from './MasterAlbumsList'
 import Filter from './Filter'
 import Single from './Single'
 
-import base from '../base'
-
 export default class Main extends React.Component {    
 
     componentDidMount() {

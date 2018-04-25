@@ -4,9 +4,7 @@ import thunk from 'redux-thunk'
 import promiseMiddleware from 'redux-promise'
 import { routerMiddleware } from 'react-router-redux'
 import createHistory from 'history/createBrowserHistory'
-import persistState from 'redux-localstorage'
-
-// import base from './base'
+// import persistState from 'redux-localstorage'
 
 // Reducer
 import rootReducer from './reducers/rootReducer'

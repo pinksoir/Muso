@@ -5,7 +5,7 @@ import Comments from './Comments'
 export default class Single extends React.Component {
 
     componentWillMount() {
-        this.props.loadAlbums();
+        // this.props.loadAlbums();
     }
 
     render() {
