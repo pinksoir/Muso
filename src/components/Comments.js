@@ -35,9 +35,13 @@ export default class Comments extends React.Component {
 
         return(
             <div className="single-page__comments__container">
+                {/* {this.props.album.comments ? (
+                    this.props.album.comments.map(this.renderComment.bind(this))
+                ) : null} */}
+
                 {this.props.album.comments ? (
                     this.props.album.comments.map(this.renderComment.bind(this))
-                ) : null}
+                ) : <div>No comments yet.</div>}
                 
                 <form className="single-page__comments__form" onSubmit={this.handleSubmit.bind(this)} ref="commentForm">
                     <input className="item" type="Text" ref="author" placeholder="author" required/>
