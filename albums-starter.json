@@ -1,0 +1,260 @@
+[ {
+  "artist" : "Sly & The Family Stone",
+  "artwork" : "https://img.cdandlp.com/2013/08/imgL/116138891.jpg",
+  "code" : "abc123",
+  "comments" : [ {
+    "text" : "Great album. There's so many cool songs on this.",
+    "user" : "cornmunch"
+  }, {
+    "text" : "This is funk.",
+    "user" : "abbie"
+  }, {
+    "text" : "Where's Sly now?",
+    "user" : "tom45"
+  }, {
+    "text" : "He's still around I think.",
+    "user" : "Jonny675"
+  } ],
+  "description" : "Art party typewriter keytar cardigan skateboard. Tilde YOLO cliche, pour-over meh trust fund lumbersexual live-edge bushwick taiyaki portland glossier hell of keffiyeh. Blog church-key meditation truffaut scenester poutine bitters kogi schlitz brunch knausgaard helvetica taxidermy tousled. Blue bottle cornhole freegan austin, williamsburg humblebrag twee jean shorts.",
+  "label" : "Epic",
+  "tags" : [ "funk", "soul", "r&b" ],
+  "title" : "Stand",
+  "year" : "1969"
+}, {
+  "artist" : "The Beatles",
+  "artwork" : "https://www.thebeatles.com/sites/default/files/tile/image/original_450.jpg",
+  "code" : "def456",
+  "comments" : [ {
+    "text" : "This is a test",
+    "user" : "Karl"
+  }, {
+    "text" : "This is also a test",
+    "user" : "Karl"
+  }, {
+    "text" : "Yes, I like this one very much",
+    "user" : "Georgio"
+  }, {
+    "text" : "another test then",
+    "user" : "Mario"
+  } ],
+  "description" : "Marfa franzen brooklyn hexagon, air plant you probably haven't heard of them health goth hella cred cronut microdosing bespoke readymade. Keytar gentrify migas, seitan keffiyeh poutine cornhole letterpress fingerstache ennui. Keytar austin put a bird on it shoreditch meh. Bitters air plant church-key bespoke enamel pin, taiyaki hashtag health goth schlitz tilde. Jianbing echo park adaptogen ramps messenger bag, pabst seitan man bun try-hard succulents +1 direct trade.",
+  "label" : "Capitol Records",
+  "tags" : [ "rock", "pop" ],
+  "title" : "Rubber Soul",
+  "year" : "1965"
+}, {
+  "artist" : "Animal Collective",
+  "artwork" : "https://images-na.ssl-images-amazon.com/images/I/91r3f7RUobL._SL1500_.jpg",
+  "code" : "ghi789",
+  "description" : "Edison bulb street art wayfarers, letterpress you probably haven't heard of them vaporware quinoa aesthetic fingerstache tbh. Locavore small batch vegan +1 hell of heirloom leggings sriracha readymade art party farm-to-table. Green juice sustainable knausgaard tumeric, wayfarers DIY celiac trust fund vice. Listicle air plant biodiesel organic cold-pressed. ",
+  "label" : "Domino",
+  "tags" : [ "electronic", "pop", "indie" ],
+  "title" : "Merriweather Post Pavillion",
+  "year" : "2009"
+}, {
+  "artist" : "Tame Impala",
+  "artwork" : "https://satchmi.com/wp-content/uploads/2017/03/R-3937552-1430620640-5793.jpeg.jpg",
+  "code" : "bhj1225lpyy",
+  "comments" : [ {
+    "text" : "I want to leave a comment here!!",
+    "user" : "Mario"
+  }, {
+    "text" : "You can!",
+    "user" : "Karl"
+  } ],
+  "description" : "Marfa kogi actually, banh mi disrupt ugh affogato aesthetic hammock whatever blog man braid sustainable. Tbh food truck biodiesel photo booth poutine, everyday carry chia prism XOXO. Typewriter art party jianbing, ugh yuccie dreamcatcher iPhone. Kitsch hammock pabst humblebrag, salvia whatever blue bottle food truck cronut post-ironic.",
+  "label" : "Modular",
+  "tags" : [ "pop", "electronic", "rock", "indie" ],
+  "title" : "Lonerism",
+  "year" : 2012
+}, {
+  "artist" : "Deerhunter",
+  "artwork" : "http://dis.resized.images.s3.amazonaws.com/540x540/63586.jpeg",
+  "code" : "huqpcn458n4js",
+  "comments" : [ {
+    "text" : "another comment",
+    "user" : "Mario"
+  } ],
+  "description" : "Art party polaroid man braid tumeric swag narwhal, slow-carb vice shaman. Kogi direct trade flannel trust fund, messenger bag prism microdosing tbh af viral paleo master cleanse portland hashtag organic. Mixtape snackwave shabby chic banjo cold-pressed pitchfork heirloom banh mi coloring book live-edge blue bottle taxidermy 90's VHS artisan. Forage portland migas ennui, poutine irony put a bird on it affogato snackwave jean shorts next level. Chambray snackwave palo santo PBR&B vice church-key, pour-over lo-fi marfa edison bulb farm-to-table everyday carry scenester lumbersexual bespoke. ",
+  "label" : "4AD",
+  "tags" : [ "rock", "indie", "alternative" ],
+  "title" : "Halcyon Digest",
+  "year" : 2010
+}, {
+  "artist" : "St Vincent",
+  "artwork" : "http://images.genius.com/74277041848d21979f0fd897999955ca.1000x1000x1.jpg",
+  "code" : "jijepwm984637bbdy",
+  "comments" : [ {
+    "text" : "I didn't realise that was a mouth on the cover",
+    "user" : "paulstammets"
+  } ],
+  "description" : "Sriracha kogi selfies vape mixtape, ugh disrupt dreamcatcher tbh echo park church-key fixie heirloom. Narwhal prism adaptogen intelligentsia ugh. Synth narwhal messenger bag, meditation paleo try-hard vice gastropub pabst iPhone enamel pin tumeric cliche kickstarter neutra. Crucifix lomo mlkshk ramps mumblecore stumptown 90's. YOLO semiotics pug chartreuse, pitchfork tumblr yuccie sriracha pok pok letterpress. Chia kinfolk jianbing typewriter mustache food truck fam viral, prism taiyaki fingerstache fanny pack asymmetrical shaman synth. Meditation kogi kickstarter marfa waistcoat yr.",
+  "label" : "4AD",
+  "tags" : [ "rock", "alternative", "indie" ],
+  "title" : "Strange Mercy",
+  "year" : 2011
+}, {
+  "artist" : "Paul Simon",
+  "artwork" : "https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg",
+  "code" : "hqomlso86dt20",
+  "description" : "Air plant tote bag green juice vaporware disrupt normcore, 3 wolf moon hashtag flannel crucifix chicharrones drinking vinegar vexillologist. Activated charcoal mustache thundercats vegan biodiesel irony craft beer slow-carb vape snackwave tattooed vaporware. Flannel tattooed glossier ramps vexillologist asymmetrical marfa 8-bit sustainable artisan post-ironic chambray four loko lo-fi vegan. Pabst banjo snackwave salvia, organic affogato unicorn marfa mixtape yr street art tacos post-ironic everyday carry kogi. Photo booth readymade hell of ugh.",
+  "label" : "Warner Bros.",
+  "tags" : [ "pop", "folk" ],
+  "title" : "Graceland",
+  "year" : 1986
+}, {
+  "artist" : "Grizzly Bear",
+  "artwork" : "https://is3-ssl.mzstatic.com/image/thumb/Music/4e/10/fe/mzi.rxsrrqqz.jpg/1200x630bb.jpg",
+  "code" : "aop47hbe92nk",
+  "comments" : [ {
+    "text" : "Their best album",
+    "user" : "MyNameIsTroy"
+  }, {
+    "text" : "I agree, though Shields is pretty amazing too",
+    "user" : "geraldine"
+  } ],
+  "description" : "Tacos semiotics heirloom hella coloring book glossier. You probably haven't heard of them vexillologist live-edge fixie hammock umami readymade chia. Shaman VHS trust fund next level, kickstarter chillwave bespoke glossier prism keffiyeh godard austin. Vape gochujang humblebrag pop-up pug irony blue bottle, keffiyeh affogato mixtape air plant. Selvage sustainable put a bird on it, brooklyn vegan taxidermy succulents thundercats. Austin vice keffiyeh bespoke, bitters slow-carb listicle subway tile.",
+  "label" : "Warp",
+  "tags" : [ "indie", "alternative", "pop" ],
+  "title" : "Veckatimest",
+  "year" : 2009
+}, {
+  "artist" : "Queen",
+  "artwork" : "https://is2-ssl.mzstatic.com/image/thumb/Music1/v4/6c/d5/12/6cd512a4-d124-f932-3954-6f55ec30e326/UMG_cvrart_00050087318246_01_RGB72_1500x1500_14DMGIM05548.jpg/600x600bf.jpg",
+  "code" : "apmdumwo47mn39",
+  "description" : "Hammock ramps wolf wayfarers. Meggings unicorn vape gluten-free whatever YOLO. Ennui authentic gluten-free man braid occupy. Brunch cloud bread affogato, organic pok pok master cleanse thundercats everyday carry gentrify plaid. Organic tattooed craft beer lumbersexual, literally palo santo PBR&B authentic edison bulb synth. Semiotics mlkshk crucifix tbh brunch. Jean shorts la croix DIY tumeric photo booth lyft pinterest edison bulb twee.",
+  "label" : "EMI",
+  "tags" : [ "rock", "pop" ],
+  "title" : "A Night At The Opera",
+  "year" : 1975
+}, {
+  "artist" : "Spoon",
+  "artwork" : "https://www.mergerecords.com/stuff/contentmgr/files/0/ff17135813000c61fcd12cf0f37412df/image/_resized/10_700_700_295_spoon_gagaga.jpg",
+  "code" : "bhdow89304njfm3",
+  "comments" : [ {
+    "text" : "Testing redux-persist",
+    "user" : "Karl"
+  } ],
+  "description" : "Pok pok kinfolk bushwick green juice iPhone adaptogen copper mug. Mumblecore cronut pok pok, stumptown health goth chicharrones sartorial fixie. Drinking vinegar neutra art party, fanny pack dreamcatcher godard messenger bag etsy taxidermy pinterest mlkshk offal tofu tousled. Mustache paleo four dollar toast put a bird on it. Everyday carry actually scenester semiotics ramps gentrify cardigan 3 wolf moon pinterest air plant. Kale chips snackwave taiyaki, poutine jean shorts pinterest put a bird on it letterpress everyday carry man bun jianbing truffaut tumblr ennui kombucha. Gochujang dreamcatcher cold-pressed, tacos tbh la croix iceland tattooed DIY drinking vinegar offal YOLO mixtape.",
+  "label" : "Merge",
+  "tags" : [ "rock", "pop", "indie" ],
+  "title" : "Ga Ga Ga Ga Ga",
+  "year" : 2007
+}, {
+  "artist" : "Mac DeMarco",
+  "artwork" : "https://cdn.shopify.com/s/files/1/0197/5978/products/macdemarco_saladdaysdemos_cover_1024x1024.jpg?v=1433352092",
+  "code" : "gaheGh78Fgk",
+  "description" : "Vape gluten-free pop-up twee, schlitz tousled leggings celiac semiotics. Art party beard stumptown four loko quinoa pinterest paleo palo santo food truck post-ironic poke meditation. Tousled +1 yr PBR&B deep v master cleanse. Scenester jean shorts butcher farm-to-table bicycle rights, pork belly tbh hoodie semiotics 8-bit hashtag. Aesthetic brunch williamsburg chillwave, sriracha cold-pressed flexitarian hot chicken hella cred. Offal quinoa meggings polaroid typewriter sriracha. Adaptogen polaroid kinfolk raclette austin +1 kickstarter tousled bicycle rights occupy.",
+  "label" : "Captured Tracks",
+  "tags" : [ "pop", "rock" ],
+  "title" : "Salad Days",
+  "year" : 2013
+}, {
+  "artist" : "Daft Punk",
+  "artwork" : "https://images-na.ssl-images-amazon.com/images/I/61Uxg-SWExL._SL1500_.jpg",
+  "code" : "WEjugfRg678g",
+  "comments" : [ {
+    "text" : "",
+    "user" : ""
+  }, {
+    "text" : "I added an empty comment!!",
+    "user" : "Mario"
+  }, {
+    "text" : "I forgot to add required fields. It's been fixed!",
+    "user" : "Karl"
+  } ],
+  "description" : "Tofu biodiesel food truck PBR&B, drinking vinegar master cleanse activated charcoal intelligentsia chambray. Mustache mlkshk subway tile waistcoat. Affogato celiac farm-to-table blue bottle fixie vice. Hell of raclette +1 man bun sartorial everyday carry sustainable glossier mixtape you probably haven't heard of them air plant. Umami bushwick hammock vegan woke air plant fixie. Tumeric fixie VHS meh fanny pack. Air plant single-origin coffee woke craft beer, fam locavore kitsch microdosing post-ironic vexillologist try-hard cronut af banjo.",
+  "label" : "Colombia",
+  "tags" : [ "disco", "electronic", "pop" ],
+  "title" : "Random Access Memories",
+  "year" : 2013
+}, {
+  "artist" : "De La Soul",
+  "artwork" : "https://img.discogs.com/jQDSoHfQ4HuRoFvHNS8cez4GYdU=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-101317-1357784255-9041.jpeg.jpg",
+  "code" : "JiodnHu785Fr45",
+  "description" : "Yuccie squid chillwave swag. Tbh selvage DIY kickstarter offal biodiesel twee ennui craft beer, photo booth slow-carb iPhone. Pok pok thundercats cloud bread unicorn viral lo-fi semiotics vinyl fingerstache. Yuccie affogato la croix live-edge, selfies drinking vinegar schlitz sustainable kinfolk twee 8-bit echo park. Meggings thundercats dreamcatcher hoodie, 90's tote bag lyft 8-bit health goth cardigan intelligentsia chambray waistcoat poutine.",
+  "label" : "Warner Bros.",
+  "tags" : [ "hip hop", "rap", "pop" ],
+  "title" : "3 Feet High and Rising",
+  "year" : 1989
+}, {
+  "artist" : "George Harrison",
+  "artwork" : "http://www.georgeharrison.com/wp-content/uploads/2013/01/ATMP-cover.jpg",
+  "code" : "YuiOpp67Ftyh",
+  "description" : "Cornhole food truck banjo blog gochujang live-edge pitchfork fingerstache, portland locavore edison bulb raclette kickstarter biodiesel. Lyft plaid asymmetrical tumeric craft beer prism poutine bicycle rights aesthetic artisan everyday carry affogato XOXO. Godard pitchfork live-edge kale chips vice williamsburg umami. Normcore woke sriracha venmo, small batch gochujang stumptown next level vegan chartreuse before they sold out tousled 8-bit.",
+  "label" : "Apple",
+  "tags" : [ "rock", "pop" ],
+  "title" : "All Things Must Pass",
+  "year" : 1970
+}, {
+  "artist" : "David Bowie",
+  "artwork" : "https://images-na.ssl-images-amazon.com/images/I/91WJORzpHML._SL1500_.jpg",
+  "code" : "RTyhUi8954FghN",
+  "comments" : [ {
+    "text" : "Ziggy played guitar",
+    "user" : "BowieFan"
+  } ],
+  "description" : "Bicycle rights vegan live-edge, gochujang next level microdosing poutine cold-pressed wolf food truck quinoa chillwave locavore drinking vinegar. Aesthetic typewriter ethical YOLO venmo jianbing mumblecore. Microdosing ugh farm-to-table retro activated charcoal mustache raclette celiac. Squid snackwave pabst gochujang, stumptown 90's food truck. Sartorial affogato meggings taxidermy, scenester activated charcoal tousled unicorn.",
+  "label" : "RCA",
+  "tags" : [ "rock", "pop" ],
+  "title" : "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+  "year" : 1972
+}, {
+  "artist" : "Funkadelic",
+  "artwork" : "https://i.pinimg.com/originals/35/ef/3d/35ef3db47183cbce701397c2bc85ac03.jpg",
+  "code" : "POkjnYu7654Vh8935",
+  "comments" : [ {
+    "text" : "Oh yeah!",
+    "user" : "FunkyMunky"
+  } ],
+  "description" : "Tote bag iPhone shabby chic hoodie tacos semiotics irony poke. Venmo raw denim photo booth, tbh 90's kale chips taiyaki banjo jean shorts. Pickled unicorn etsy readymade polaroid squid, williamsburg franzen pug crucifix austin. Shoreditch hella tbh chartreuse cornhole gentrify vexillologist bushwick selfies. Aesthetic you probably haven't heard of them next level polaroid glossier, craft beer crucifix wayfarers truffaut. Freegan knausgaard migas, typewriter cray irony sartorial mumblecore artisan humblebrag fashion axe messenger bag gentrify normcore hexagon. Kickstarter leggings prism mlkshk tousled, austin tacos selfies lomo cardigan humblebrag authentic pork belly flexitarian asymmetrical.",
+  "label" : "Westbound",
+  "tags" : [ "funk", "rock", "r&b" ],
+  "title" : "Maggot Brain",
+  "year" : 1971
+}, {
+  "artist" : "Marvin Gaye",
+  "artwork" : "https://img.discogs.com/Gf43GuIxs0zkkwgS76WgFaJafDo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-359107-1471882045-7161.jpeg.jpg",
+  "code" : "DewYhbSpOkl78",
+  "description" : "Poutine locavore VHS, pok pok hella edison bulb gluten-free iceland subway tile bespoke flexitarian jean shorts blue bottle meggings. Roof party stumptown farm-to-table gochujang, vaporware pork belly poutine fixie messenger bag enamel pin tousled listicle photo booth selfies. Art party kickstarter listicle neutra. Crucifix af direct trade normcore mixtape locavore post-ironic. Celiac succulents pinterest raclette whatever gentrify +1 franzen meditation glossier selfies biodiesel 90's chartreuse.",
+  "label" : "Tamla",
+  "tags" : [ "soul", "r&b" ],
+  "title" : "What's Going On",
+  "year" : 1971
+}, {
+  "artist" : "Father John Misty",
+  "artwork" : "https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/599/max_960/11196.jpg",
+  "code" : "TYuNKlpsD67Vg34",
+  "description" : "8-bit tumeric chambray, polaroid iceland small batch shoreditch succulents tote bag humblebrag. Flexitarian truffaut tofu XOXO, farm-to-table hexagon put a bird on it subway tile messenger bag copper mug. Vice vape messenger bag sartorial fashion axe knausgaard direct trade mlkshk plaid la croix. Synth offal portland waistcoat chia. Meggings beard celiac semiotics, taiyaki put a bird on it fam before they sold out asymmetrical hashtag synth succulents 8-bit YOLO.",
+  "label" : "Sub Pop",
+  "tags" : [ "folk", "pop", "rock" ],
+  "title" : "Fear Fun",
+  "year" : 2012
+}, {
+  "artist" : "FKA Twigs",
+  "artwork" : "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/e3/7a/f6/e37af6dc-10fb-e524-e272-e39b1ec8ef62/cover.jpg/1200x630bb.jpg",
+  "code" : "56FGuuFcvhh",
+  "description" : "Direct trade cronut fingerstache, vegan deep v sriracha intelligentsia small batch iPhone ethical gochujang everyday carry air plant 90's. Polaroid hammock gentrify, green juice wayfarers drinking vinegar pour-over. Listicle retro lumbersexual echo park occupy. Single-origin coffee fanny pack organic hot chicken blog actually viral adaptogen ugh food truck pitchfork occupy. Air plant normcore vice wayfarers scenester salvia. Succulents hoodie yuccie af bitters freegan chillwave wayfarers shabby chic migas PBR&B beard. Banjo hashtag celiac, green juice pork belly you probably haven't heard of them biodiesel microdosing typewriter umami.",
+  "label" : "Young Turks",
+  "tags" : [ "pop", "r&b", "alternative" ],
+  "title" : "LP-1",
+  "year" : 2014
+}, {
+  "artist" : "LCD Soundsystem",
+  "artwork" : "http://cdn.shopify.com/s/files/1/0192/0262/products/lcd_soundsystem_lcd_soundsystem_frontal_grande.jpg",
+  "code" : "RyHgbNj87G56Fc",
+  "description" : "Keffiyeh 90's freegan, hexagon chartreuse fam photo booth cred pitchfork kitsch. Plaid celiac vice farm-to-table. Edison bulb church-key austin dreamcatcher cold-pressed, organic synth banh mi pabst trust fund narwhal fam neutra tacos microdosing. Everyday carry selfies thundercats kogi, lomo XOXO prism knausgaard hexagon. Offal pabst bitters art party, gastropub crucifix man bun ennui snackwave williamsburg mlkshk.",
+  "label" : "DFA",
+  "tags" : [ "electronic", "pop", "rock" ],
+  "title" : "LCD Soundsystem",
+  "year" : 2005
+}, {
+  "artist" : "Arcade Fire",
+  "artwork" : "http://images.genius.com/8214ebadbd18be518d19cc585bd29c27.900x900x1.jpg",
+  "code" : "PolkNbtyh483n",
+  "description" : "Stumptown drinking vinegar sustainable organic kale chips ramps health goth. Godard hoodie venmo knausgaard, occupy snackwave post-ironic kombucha celiac listicle semiotics thundercats. Yuccie pour-over prism raclette, pitchfork you probably haven't heard of them cardigan direct trade godard thundercats beard. Hashtag thundercats fingerstache, man braid hell of williamsburg whatever la croix chartreuse scenester distillery retro pug. Cliche authentic ethical, flexitarian raw denim affogato glossier stumptown typewriter semiotics crucifix. Microdosing locavore art party letterpress.",
+  "label" : "Merge",
+  "tags" : [ "rock", "alternative", "pop" ],
+  "title" : "The Suburbs",
+  "year" : 2010
+} ]
