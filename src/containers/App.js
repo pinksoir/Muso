@@ -11,6 +11,7 @@ import Main from '../components/Main';
 function mapStateToProps(state) {
     return {
         albums: state.getAlbums,
+        albumComments: state.getComments,
         userAlbums: state.userAlbums,
         filterValue: state.filterValue.filterValue,
     }
@@ -19,7 +20,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         loadAlbums: bindActionCreators(albumActionCreators, dispatch),
-        userComments: bindActionCreators(commentsActionCreators, dispatch),
+        commentsActions: bindActionCreators(commentsActionCreators, dispatch),
         userActions: bindActionCreators(userAlbumActionCreators, dispatch),
         filterActions: bindActionCreators(filterAlbumsActionCreators, dispatch)
     }   

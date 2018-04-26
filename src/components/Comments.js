@@ -21,13 +21,11 @@ export default class Comments extends React.Component {
         event.preventDefault();
         const author = this.refs.author.value;
         const comment = this.refs.comment.value;
+        const { commentsIndex } = this.props;
 
-        const { index } = this.props;
-        console.log(index);
-        this.props.addComment(index, author, comment);
+        
+        this.props.addComment(commentsIndex, author, comment);
         this.refs.commentForm.reset();
-
-        this.props.loadAlbums();
         
     }
 
@@ -35,13 +33,10 @@ export default class Comments extends React.Component {
 
         return(
             <div className="single-page__comments__container">
-                {/* {this.props.album.comments ? (
-                    this.props.album.comments.map(this.renderComment.bind(this))
-                ) : null} */}
 
-                {this.props.album.comments ? (
-                    this.props.album.comments.map(this.renderComment.bind(this))
-                ) : <div>No comments yet.</div>}
+                {this.props.currComments.comments ? (
+                    this.props.currComments.comments.map(this.renderComment.bind(this))
+                ) : <div>No comments yet. Add one!</div>}
                 
                 <form className="single-page__comments__form" onSubmit={this.handleSubmit.bind(this)} ref="commentForm">
                     <input className="item" type="Text" ref="author" placeholder="author" required/>

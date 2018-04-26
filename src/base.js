@@ -3,8 +3,8 @@ import * as firebase from 'firebase'
 
 var config = {
     apiKey: "YOUR_API_KEY",
-    authDomain: "your-db-name.firebaseapp.com",
-    databaseURL: "https://your-db-name.firebaseio.com",
+    authDomain: "project-id.firebaseapp.com",
+    databaseURL: "https://db-url.firebaseio.com",
 };
   
 firebase.initializeApp(config);

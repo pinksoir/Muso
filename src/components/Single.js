@@ -5,7 +5,7 @@ import Comments from './Comments'
 export default class Single extends React.Component {
 
     componentWillMount() {
-        this.props.loadAlbums();
+        this.props.loadComments();
     }
 
     render() {
@@ -13,6 +13,11 @@ export default class Single extends React.Component {
         const { albumId } = this.props.match.params;
         const index = this.props.albums.findIndex((album) => album.code === albumId);
         const album = this.props.albums[index];
+        
+
+        const commentsIndex = this.props.albumComments.findIndex((comment) => comment.code === albumId);
+        const currComments = this.props.albumComments[commentsIndex];
+        console.log(currComments);
 
         return(
             <div className="single-page">
@@ -40,7 +45,10 @@ export default class Single extends React.Component {
                         params={this.props.match.params}
                         addComment={this.props.addComment}
                         index={index}
-                        loadAlbums={this.props.loadAlbums}
+                        // loadAlbums={this.props.loadAlbums}
+                        commentsIndex={commentsIndex}
+                        currComments={currComments}
+                        loadComments={this.props.loadComments}
                     />
                 </div>
             </div>

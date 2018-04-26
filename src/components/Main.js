@@ -12,6 +12,7 @@ export default class Main extends React.Component {
 
     componentDidMount() {
         this.props.loadAlbums.fetchAlbumsThunk();
+        // this.props.commentsActions.fetchCommentsThunk();
     }
 
     render() {    
@@ -47,9 +48,12 @@ export default class Main extends React.Component {
                             render={(routeProps, props) => (
                                 <Single {...props} {...routeProps}
                                 albums={this.props.albums}
-                                addComment={this.props.userComments.addComment}
+                                albumComments={this.props.albumComments}
+                                addComment={this.props.commentsActions.addComment}
                                 loadAlbums={this.props.loadAlbums.fetchAlbumsThunk}
                                 addAlbum={this.props.userActions.addAlbum}
+
+                                loadComments={this.props.commentsActions.fetchCommentsThunk}
                                 />
                             )} 
                         />
