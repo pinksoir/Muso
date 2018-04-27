@@ -2,11 +2,11 @@
 
 A simple music list and discussion app built with React-Redux and Firebase.
 
-### Still to do (in order):
+### Still to do:
 
-~~Add redux-persist so the single page album views are persisted across refresh.~~
+- ~~Add redux-persist so the single page album views are persisted across refresh.~~
 - Add user authentication so they can save their lists and delete comments that they added.
-- Build a better, more robust comments database object that is tied to album ID (album.code) instead of being embedded within the album object.
+- ~~Build a better, more robust comments database object that is tied to album ID (album.code) instead of being embedded within the album object.~~
 - Design proper UI.
 - Add client side database management (CRUD) for site owner.
 - Build the database (add more album details such as tracklisting, song duraton, etc.)!
